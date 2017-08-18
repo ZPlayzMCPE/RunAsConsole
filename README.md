@@ -9,3 +9,6 @@ rac.use - Use "/console" command
 
 # TO-DO
 Nothing
+
+# Download
+Download: https://github.com/Rysieku/RunasConsole-RAC/releases
