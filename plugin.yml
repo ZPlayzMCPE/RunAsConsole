@@ -1,6 +1,6 @@
-name: RAC
+name: RunAsConsole
 author: Rysieeku
-version: 1.0
+version: 1.1
 main: Rysieeku\Main
 api: [3.0.0-ALPHA6]
 commands:
