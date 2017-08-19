@@ -12,5 +12,13 @@ rac.use - Use "/console" command
 # TO-DO
 Eliminate bugs (when they will be)
 
+# Changes
+### 0.9
+First release
+### 1.0
+Fixed permission message not working
+### 1.1
+Check if console run command and send message to use command in game
+
 # Download
 Download: https://github.com/Rysieku/RunasConsole-RAC/releases
