@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Rysieku/RunasConsole-RAC
+branches:
+- master
+projects:
+  RunasConsole-RAC:
+    path: ""
+...
