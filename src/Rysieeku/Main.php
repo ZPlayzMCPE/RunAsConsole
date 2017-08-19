@@ -47,7 +47,7 @@ class Main extends PluginBase implements Listener{
           return false;
         }
         else {
-          $sender->sendMessage(TF::RED.$this->getPermissionMessage());
+          $sender->sendMessage(TF::RED."You don't have permission to perform this command! (rac.use)");
           }
         }
       }
