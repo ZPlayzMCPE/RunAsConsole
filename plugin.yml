@@ -6,7 +6,6 @@ api: [3.0.0-ALPHA6]
 commands:
   console:
     description: Use command as console
-    permission: rac.use
 permissions:
   rac.use:
     default: false
