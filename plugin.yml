@@ -1,8 +1,8 @@
 name: RunAsConsole
 author: Rysieeku
-version: 1.3
+version: 1.4
 main: Rysieeku\RunAsConsole\Main
-api: [3.0.0-ALPHA6]
+api: [3.0.0-ALPHA7]
 commands:
   console:
     description: Use command as console
@@ -10,9 +10,9 @@ commands:
     description: Info about plugin
     aliases: [rac]
 permissions:
-  rac.use:
+  runasconsole.use:
     default: op
-  rac.info:
+  runasconsole.info:
     default: op
-  rac.*:
+  runasconsole.*:
     default: op
