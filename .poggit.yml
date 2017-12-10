@@ -2,6 +2,6 @@
 branches:
 - master
 projects:
-  RunasConsole-RAC:
+  RunasConsole-Latest:
     path: ""
 ...
