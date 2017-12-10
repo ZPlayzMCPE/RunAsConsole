@@ -1,8 +1,8 @@
 name: RunAsConsole
-author: Rysieeku
-version: 1.4
+author: [VMPE Development Team]
+version: 1.4-B1
 main: Rysieeku\RunAsConsole\Main
-api: [3.0.0-ALPHA6]
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10]
 commands:
   console:
     description: Use command as console
