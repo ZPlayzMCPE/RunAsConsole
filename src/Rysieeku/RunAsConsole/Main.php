@@ -3,11 +3,11 @@ namespace Rysieeku\RunAsConsole;
 
 /*
 *  Author: Rysieeku
-*  Version: 1.4
-*  API: 3.0.0-ALPHA6
+*  Version: 1.4-B1
+*  API: 3.0.0-ALPHA10
 */
 
-use pocketmine\utils\TextFormat as TF;
+use pocketmine\utils\TextFormat;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\command\SimpleCommandMap;
@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener{
     $this->getLogger()->info(TF::BOLD.TF::GREEN."RunAsConsole".TF::RESET.TF::RED." disabled!");
   }
   
-  public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+  public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
     switch($command->getName()){
       case "console":
         if(!$sender instanceof Player){
